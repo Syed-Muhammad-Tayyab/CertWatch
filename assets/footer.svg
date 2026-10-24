@@ -1,0 +1,17 @@
+<svg width="1600" height="160" viewBox="0 0 1600 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="waveF" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"  stop-color="#10b981"/>
+      <stop offset="32%" stop-color="#06b6d4"/>
+      <stop offset="65%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="160" fill="#ffffff"/>
+  <path d="M0,60 C200,120 400,10 600,55 C800,100 1000,20 1200,60
+           C1350,90 1500,40 1600,65 L1600,0 L0,0 Z" fill="url(#waveF)"/>
+  <text x="800" y="110" text-anchor="middle" font-family="Verdana, Geneva, sans-serif"
+        font-size="16" fill="#0f172a" fill-opacity="0.55">
+    ⭐ Star this repo if CertWatch helped you keep your certs in check
+  </text>
+</svg>

@@ -1,0 +1,40 @@
+<svg width="1600" height="400" viewBox="0 0 1600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"  stop-color="#0f172a"/>
+      <stop offset="35%" stop-color="#0284c7"/>
+      <stop offset="68%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <radialGradient id="shine" cx="80%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="400" fill="#ffffff"/>
+
+  <path d="M0,150 C180,60 360,210 560,120 C740,40 900,190 1100,110
+           C1260,45 1420,150 1600,95 L1600,400 L0,400 Z" fill="url(#wave)"/>
+  <path d="M0,150 C180,60 360,210 560,120 C740,40 900,190 1100,110
+           C1260,45 1420,150 1600,95 L1600,400 L0,400 Z" fill="url(#shine)"/>
+
+  <text x="800" y="250" text-anchor="middle" font-family="Verdana, Geneva, sans-serif"
+        font-size="58" font-weight="700" fill="#ffffff">
+    CertWatch
+  </text>
+
+  <text x="800" y="292" text-anchor="middle" font-family="Verdana, Geneva, sans-serif"
+        font-size="21" fill="#d7f3ff">
+    TLS/SSL Certificate Health Auditor — Expiry · Protocol · Chain Checks
+  </text>
+
+  <g>
+    <rect x="560" y="320" width="480" height="48" rx="24" fill="#ffffff" fill-opacity="0.12"
+          stroke="#ffffff" stroke-opacity="0.55" stroke-width="2"/>
+    <text x="800" y="351" text-anchor="middle" font-family="Verdana, Geneva, sans-serif"
+          font-size="19" font-weight="700" fill="#ffffff">
+      Developed by Syed Muhammad Tayyab
+    </text>
+  </g>
+</svg>
